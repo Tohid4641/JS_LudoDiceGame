@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(#cfd9df,#e2ebf0);
+}
+p{
+    margin-bottom: 25px;
+}
+img:active{
+    /* transform: scale(1.1); */
+    transform: rotate(150deg);
+}
